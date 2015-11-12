@@ -1,0 +1,108 @@
+//: Juego de Memoria
+
+import UIKit
+
+var numeros = ["0","1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25","26","27","28","29","30","31","32","33","34","35","36","37","38","39","40","41","42","43","44","45","46","47","48","49","50","51","52","53","54","55","56","57","58","59","60","61","62","63","64","65","66","67","68","69","70","71","72","73","74","75","76","77","78","79","80","81","82","83","84","85","86","87","88","89","90","91","92","93","94","95","96","97","98","99","100"]
+var contador = 0
+let var5 = 100 % 5
+var menor = 29
+var mayor = 41
+var cinco = contador % 5
+var par = contador % 2
+var impar = par + 1
+var parMay = "Par!!!"
+var parMin = "par!!!"
+var imparMay = "Impar!!!"
+var imparMin = "impar!!!"
+var bingo = "Bingo!!!"
+var vivaSwift = "Viva Swift!!!"
+var gato = "#"
+
+if contador == 0 {
+    print("\(gato)\t\(numeros[contador])\t\(bingo)\(parMay)")
+}
+for index in 1...100 {
+
+  ++contador
+    var cinco = contador % 5
+    var par = contador % 2
+
+    if  (contador > 0 && contador < 101){
+      if cinco == 0 && par == 0 && (contador < 41 && contador > 29){
+    print("\(gato)\t\(numeros[contador])\t\(bingo)\(parMay)\(vivaSwift) ")
+   
+    }
+      else if (cinco == 0 && par != 0  && (contador < 41 && contador > 29)){
+        print("\(gato)\t\(numeros[contador])\t\(bingo)\(imparMay)\(vivaSwift)")
+      }
+          else if (cinco == 0 && (contador < 41 && contador > 29)){
+          print("\(gato)\t\(numeros[contador])\t\(bingo)\(vivaSwift)")
+           }
+              else if (par == 0 && (contador < 41 && contador > 29)){
+                   print("\(gato)\t\(numeros[contador])\t\(parMay)\(vivaSwift) ")
+              }
+                  else if (par != 0 && (contador < 41 && contador > 29)){
+                      print("\(gato)\t\(numeros[contador])\t\(imparMay)\(vivaSwift) ")
+                    }
+                     else if (cinco == 0) && (par == 0) {
+                           print("\(gato)\t\(numeros[contador])\t\(bingo)\(parMay)")
+                        }
+        
+                          else if cinco == 0 && par != 0  {
+                          print("\(gato)\t\(numeros[contador])\t\(bingo)\(imparMay)")
+                            }
+
+                      else if cinco == 0 {
+                         print("\(gato)\t\(numeros[contador])\t\(bingo)")
+                          }
+                              else if par == 0{
+                                 print("\(gato)\t\(numeros[contador])\t\(parMin)")
+                                 }
+                                else if par != 0 {
+                                     print("\(gato)\t\(numeros[contador])\t\(imparMin)")
+                                   }
+   
+   }
+
+}
+
+
+    
+
+
+
+/*for index in 0...100 {
+    var cinco = contador % 5
+    if cinco == 0 {
+        print("#\t\(numeros[contador])\tBingo!!!!")
+        
+    }
+    ++contador
+}
+contador = 0
+for index in 0...100 {
+    var cinco = contador % 2
+    if cinco == 0 {
+        print("#\t\(numeros[contador])\tPar")
+  }
+    ++contador
+}
+contador = 0
+for index in 0...100 {
+    var cinco = contador % 2
+    if cinco != 0 {
+        print("#\t\(numeros[contador])\tImpar")
+        
+    }
+    ++contador
+
+}
+contador = 0
+for index in 0...100 {
+    if contador < 41 && contador > 29{
+        print("#\t\(numeros[contador])\tViva Swift!!!")
+        
+    }
+    ++contador
+    }
+ */
