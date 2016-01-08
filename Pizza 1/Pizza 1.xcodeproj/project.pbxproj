@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		024F792B1C3F20D500D9FA4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024F792A1C3F20D500D9FA4A /* AppDelegate.swift */; };
+		024F792D1C3F20D500D9FA4A /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024F792C1C3F20D500D9FA4A /* MasterViewController.swift */; };
+		024F792F1C3F20D500D9FA4A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024F792E1C3F20D500D9FA4A /* DetailViewController.swift */; };
+		024F79321C3F20D500D9FA4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 024F79301C3F20D500D9FA4A /* Main.storyboard */; };
+		024F79341C3F20D500D9FA4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 024F79331C3F20D500D9FA4A /* Assets.xcassets */; };
+		024F79371C3F20D500D9FA4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 024F79351C3F20D500D9FA4A /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		024F79271C3F20D500D9FA4A /* Pizza 1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pizza 1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		024F792A1C3F20D500D9FA4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		024F792C1C3F20D500D9FA4A /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		024F792E1C3F20D500D9FA4A /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		024F79311C3F20D500D9FA4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		024F79331C3F20D500D9FA4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		024F79361C3F20D500D9FA4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		024F79381C3F20D500D9FA4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		024F79241C3F20D400D9FA4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		024F791E1C3F20D400D9FA4A = {
+			isa = PBXGroup;
+			children = (
+				024F79291C3F20D500D9FA4A /* Pizza 1 */,
+				024F79281C3F20D500D9FA4A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		024F79281C3F20D500D9FA4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				024F79271C3F20D500D9FA4A /* Pizza 1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		024F79291C3F20D500D9FA4A /* Pizza 1 */ = {
+			isa = PBXGroup;
+			children = (
+				024F792A1C3F20D500D9FA4A /* AppDelegate.swift */,
+				024F792C1C3F20D500D9FA4A /* MasterViewController.swift */,
+				024F792E1C3F20D500D9FA4A /* DetailViewController.swift */,
+				024F79301C3F20D500D9FA4A /* Main.storyboard */,
+				024F79331C3F20D500D9FA4A /* Assets.xcassets */,
+				024F79351C3F20D500D9FA4A /* LaunchScreen.storyboard */,
+				024F79381C3F20D500D9FA4A /* Info.plist */,
+			);
+			path = "Pizza 1";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		024F79261C3F20D400D9FA4A /* Pizza 1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 024F793B1C3F20D500D9FA4A /* Build configuration list for PBXNativeTarget "Pizza 1" */;
+			buildPhases = (
+				024F79231C3F20D400D9FA4A /* Sources */,
+				024F79241C3F20D400D9FA4A /* Frameworks */,
+				024F79251C3F20D400D9FA4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pizza 1";
+			productName = "Pizza 1";
+			productReference = 024F79271C3F20D500D9FA4A /* Pizza 1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		024F791F1C3F20D400D9FA4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Instituto Cultural Cuernavaca";
+				TargetAttributes = {
+					024F79261C3F20D400D9FA4A = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 024F79221C3F20D400D9FA4A /* Build configuration list for PBXProject "Pizza 1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 024F791E1C3F20D400D9FA4A;
+			productRefGroup = 024F79281C3F20D500D9FA4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				024F79261C3F20D400D9FA4A /* Pizza 1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		024F79251C3F20D400D9FA4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				024F79371C3F20D500D9FA4A /* LaunchScreen.storyboard in Resources */,
+				024F79341C3F20D500D9FA4A /* Assets.xcassets in Resources */,
+				024F79321C3F20D500D9FA4A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		024F79231C3F20D400D9FA4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				024F792F1C3F20D500D9FA4A /* DetailViewController.swift in Sources */,
+				024F792D1C3F20D500D9FA4A /* MasterViewController.swift in Sources */,
+				024F792B1C3F20D500D9FA4A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		024F79301C3F20D500D9FA4A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				024F79311C3F20D500D9FA4A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		024F79351C3F20D500D9FA4A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				024F79361C3F20D500D9FA4A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		024F79391C3F20D500D9FA4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		024F793A1C3F20D500D9FA4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		024F793C1C3F20D500D9FA4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Pizza 1/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mx.edu.marymount.Pizza-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		024F793D1C3F20D500D9FA4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Pizza 1/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mx.edu.marymount.Pizza-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		024F79221C3F20D400D9FA4A /* Build configuration list for PBXProject "Pizza 1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				024F79391C3F20D500D9FA4A /* Debug */,
+				024F793A1C3F20D500D9FA4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		024F793B1C3F20D500D9FA4A /* Build configuration list for PBXNativeTarget "Pizza 1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				024F793C1C3F20D500D9FA4A /* Debug */,
+				024F793D1C3F20D500D9FA4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 024F791F1C3F20D400D9FA4A /* Project object */;
+}
