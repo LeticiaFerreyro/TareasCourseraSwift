@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0254CC4F1C53EF77001E205C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0254CC4E1C53EF77001E205C /* AppDelegate.swift */; };
+		0254CC511C53EF77001E205C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0254CC501C53EF77001E205C /* ViewController.swift */; };
+		0254CC541C53EF77001E205C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0254CC521C53EF77001E205C /* Main.storyboard */; };
+		0254CC561C53EF77001E205C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0254CC551C53EF77001E205C /* Assets.xcassets */; };
+		0254CC591C53EF77001E205C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0254CC571C53EF77001E205C /* LaunchScreen.storyboard */; };
+		0254CC5E1C53EF77001E205C /* CalcIMCAWLeticia WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 0254CC5D1C53EF77001E205C /* CalcIMCAWLeticia WatchKit App.app */; };
+		0254CC641C53EF77001E205C /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0254CC621C53EF77001E205C /* Interface.storyboard */; };
+		0254CC661C53EF77001E205C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0254CC651C53EF77001E205C /* Assets.xcassets */; };
+		0254CC6D1C53EF78001E205C /* CalcIMCAWLeticia WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 0254CC6C1C53EF78001E205C /* CalcIMCAWLeticia WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0254CC721C53EF78001E205C /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0254CC711C53EF78001E205C /* InterfaceController.swift */; };
+		0254CC741C53EF78001E205C /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0254CC731C53EF78001E205C /* ExtensionDelegate.swift */; };
+		0254CC761C53EF78001E205C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0254CC751C53EF78001E205C /* Assets.xcassets */; };
+		0254CC861C54042A001E205C /* valor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0254CC851C54042A001E205C /* valor.swift */; };
+		0254CC881C54088A001E205C /* vistaDetalleInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0254CC871C54088A001E205C /* vistaDetalleInterfaceController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0254CC5F1C53EF77001E205C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0254CC431C53EF77001E205C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0254CC5C1C53EF77001E205C;
+			remoteInfo = "CalcIMCAWLeticia WatchKit App";
+		};
+		0254CC6E1C53EF78001E205C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0254CC431C53EF77001E205C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0254CC6B1C53EF78001E205C;
+			remoteInfo = "CalcIMCAWLeticia WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0254CC7D1C53EF78001E205C /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				0254CC6D1C53EF78001E205C /* CalcIMCAWLeticia WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0254CC811C53EF78001E205C /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				0254CC5E1C53EF77001E205C /* CalcIMCAWLeticia WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0254CC4B1C53EF77001E205C /* CalcIMCAWLeticia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalcIMCAWLeticia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0254CC4E1C53EF77001E205C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0254CC501C53EF77001E205C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0254CC531C53EF77001E205C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0254CC551C53EF77001E205C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0254CC581C53EF77001E205C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0254CC5A1C53EF77001E205C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0254CC5D1C53EF77001E205C /* CalcIMCAWLeticia WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CalcIMCAWLeticia WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0254CC631C53EF77001E205C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		0254CC651C53EF77001E205C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0254CC671C53EF77001E205C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0254CC6C1C53EF78001E205C /* CalcIMCAWLeticia WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "CalcIMCAWLeticia WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0254CC711C53EF78001E205C /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		0254CC731C53EF78001E205C /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		0254CC751C53EF78001E205C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0254CC771C53EF78001E205C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0254CC851C54042A001E205C /* valor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = valor.swift; sourceTree = "<group>"; };
+		0254CC871C54088A001E205C /* vistaDetalleInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = vistaDetalleInterfaceController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0254CC481C53EF77001E205C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0254CC691C53EF78001E205C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0254CC421C53EF77001E205C = {
+			isa = PBXGroup;
+			children = (
+				0254CC4D1C53EF77001E205C /* CalcIMCAWLeticia */,
+				0254CC611C53EF77001E205C /* CalcIMCAWLeticia WatchKit App */,
+				0254CC701C53EF78001E205C /* CalcIMCAWLeticia WatchKit Extension */,
+				0254CC4C1C53EF77001E205C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0254CC4C1C53EF77001E205C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0254CC4B1C53EF77001E205C /* CalcIMCAWLeticia.app */,
+				0254CC5D1C53EF77001E205C /* CalcIMCAWLeticia WatchKit App.app */,
+				0254CC6C1C53EF78001E205C /* CalcIMCAWLeticia WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0254CC4D1C53EF77001E205C /* CalcIMCAWLeticia */ = {
+			isa = PBXGroup;
+			children = (
+				0254CC4E1C53EF77001E205C /* AppDelegate.swift */,
+				0254CC501C53EF77001E205C /* ViewController.swift */,
+				0254CC521C53EF77001E205C /* Main.storyboard */,
+				0254CC551C53EF77001E205C /* Assets.xcassets */,
+				0254CC571C53EF77001E205C /* LaunchScreen.storyboard */,
+				0254CC5A1C53EF77001E205C /* Info.plist */,
+			);
+			path = CalcIMCAWLeticia;
+			sourceTree = "<group>";
+		};
+		0254CC611C53EF77001E205C /* CalcIMCAWLeticia WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				0254CC621C53EF77001E205C /* Interface.storyboard */,
+				0254CC651C53EF77001E205C /* Assets.xcassets */,
+				0254CC671C53EF77001E205C /* Info.plist */,
+			);
+			path = "CalcIMCAWLeticia WatchKit App";
+			sourceTree = "<group>";
+		};
+		0254CC701C53EF78001E205C /* CalcIMCAWLeticia WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0254CC711C53EF78001E205C /* InterfaceController.swift */,
+				0254CC731C53EF78001E205C /* ExtensionDelegate.swift */,
+				0254CC751C53EF78001E205C /* Assets.xcassets */,
+				0254CC771C53EF78001E205C /* Info.plist */,
+				0254CC851C54042A001E205C /* valor.swift */,
+				0254CC871C54088A001E205C /* vistaDetalleInterfaceController.swift */,
+			);
+			path = "CalcIMCAWLeticia WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0254CC4A1C53EF77001E205C /* CalcIMCAWLeticia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0254CC821C53EF78001E205C /* Build configuration list for PBXNativeTarget "CalcIMCAWLeticia" */;
+			buildPhases = (
+				0254CC471C53EF77001E205C /* Sources */,
+				0254CC481C53EF77001E205C /* Frameworks */,
+				0254CC491C53EF77001E205C /* Resources */,
+				0254CC811C53EF78001E205C /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0254CC601C53EF77001E205C /* PBXTargetDependency */,
+			);
+			name = CalcIMCAWLeticia;
+			productName = CalcIMCAWLeticia;
+			productReference = 0254CC4B1C53EF77001E205C /* CalcIMCAWLeticia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0254CC5C1C53EF77001E205C /* CalcIMCAWLeticia WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0254CC7E1C53EF78001E205C /* Build configuration list for PBXNativeTarget "CalcIMCAWLeticia WatchKit App" */;
+			buildPhases = (
+				0254CC5B1C53EF77001E205C /* Resources */,
+				0254CC7D1C53EF78001E205C /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0254CC6F1C53EF78001E205C /* PBXTargetDependency */,
+			);
+			name = "CalcIMCAWLeticia WatchKit App";
+			productName = "CalcIMCAWLeticia WatchKit App";
+			productReference = 0254CC5D1C53EF77001E205C /* CalcIMCAWLeticia WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		0254CC6B1C53EF78001E205C /* CalcIMCAWLeticia WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0254CC7A1C53EF78001E205C /* Build configuration list for PBXNativeTarget "CalcIMCAWLeticia WatchKit Extension" */;
+			buildPhases = (
+				0254CC681C53EF78001E205C /* Sources */,
+				0254CC691C53EF78001E205C /* Frameworks */,
+				0254CC6A1C53EF78001E205C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CalcIMCAWLeticia WatchKit Extension";
+			productName = "CalcIMCAWLeticia WatchKit Extension";
+			productReference = 0254CC6C1C53EF78001E205C /* CalcIMCAWLeticia WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0254CC431C53EF77001E205C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Instituto Cultural Cuernavaca";
+				TargetAttributes = {
+					0254CC4A1C53EF77001E205C = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					0254CC5C1C53EF77001E205C = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					0254CC6B1C53EF78001E205C = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 0254CC461C53EF77001E205C /* Build configuration list for PBXProject "CalcIMCAWLeticia" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0254CC421C53EF77001E205C;
+			productRefGroup = 0254CC4C1C53EF77001E205C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0254CC4A1C53EF77001E205C /* CalcIMCAWLeticia */,
+				0254CC5C1C53EF77001E205C /* CalcIMCAWLeticia WatchKit App */,
+				0254CC6B1C53EF78001E205C /* CalcIMCAWLeticia WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0254CC491C53EF77001E205C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0254CC591C53EF77001E205C /* LaunchScreen.storyboard in Resources */,
+				0254CC561C53EF77001E205C /* Assets.xcassets in Resources */,
+				0254CC541C53EF77001E205C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0254CC5B1C53EF77001E205C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0254CC661C53EF77001E205C /* Assets.xcassets in Resources */,
+				0254CC641C53EF77001E205C /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0254CC6A1C53EF78001E205C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0254CC761C53EF78001E205C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0254CC471C53EF77001E205C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0254CC511C53EF77001E205C /* ViewController.swift in Sources */,
+				0254CC4F1C53EF77001E205C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0254CC681C53EF78001E205C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0254CC861C54042A001E205C /* valor.swift in Sources */,
+				0254CC741C53EF78001E205C /* ExtensionDelegate.swift in Sources */,
+				0254CC721C53EF78001E205C /* InterfaceController.swift in Sources */,
+				0254CC881C54088A001E205C /* vistaDetalleInterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0254CC601C53EF77001E205C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0254CC5C1C53EF77001E205C /* CalcIMCAWLeticia WatchKit App */;
+			targetProxy = 0254CC5F1C53EF77001E205C /* PBXContainerItemProxy */;
+		};
+		0254CC6F1C53EF78001E205C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0254CC6B1C53EF78001E205C /* CalcIMCAWLeticia WatchKit Extension */;
+			targetProxy = 0254CC6E1C53EF78001E205C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0254CC521C53EF77001E205C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0254CC531C53EF77001E205C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0254CC571C53EF77001E205C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0254CC581C53EF77001E205C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0254CC621C53EF77001E205C /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0254CC631C53EF77001E205C /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0254CC781C53EF78001E205C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0254CC791C53EF78001E205C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0254CC7B1C53EF78001E205C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "CalcIMCAWLeticia WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mx.edu.marymount.CalcIMCAWLeticia.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		0254CC7C1C53EF78001E205C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "CalcIMCAWLeticia WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mx.edu.marymount.CalcIMCAWLeticia.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		0254CC7F1C53EF78001E205C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = CalcIMCAWLeticia_WatchKit_Extension;
+				INFOPLIST_FILE = "CalcIMCAWLeticia WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = mx.edu.marymount.CalcIMCAWLeticia.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		0254CC801C53EF78001E205C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = CalcIMCAWLeticia_WatchKit_Extension;
+				INFOPLIST_FILE = "CalcIMCAWLeticia WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = mx.edu.marymount.CalcIMCAWLeticia.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		0254CC831C53EF78001E205C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CalcIMCAWLeticia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mx.edu.marymount.CalcIMCAWLeticia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0254CC841C53EF78001E205C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CalcIMCAWLeticia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mx.edu.marymount.CalcIMCAWLeticia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0254CC461C53EF77001E205C /* Build configuration list for PBXProject "CalcIMCAWLeticia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0254CC781C53EF78001E205C /* Debug */,
+				0254CC791C53EF78001E205C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0254CC7A1C53EF78001E205C /* Build configuration list for PBXNativeTarget "CalcIMCAWLeticia WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0254CC7B1C53EF78001E205C /* Debug */,
+				0254CC7C1C53EF78001E205C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0254CC7E1C53EF78001E205C /* Build configuration list for PBXNativeTarget "CalcIMCAWLeticia WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0254CC7F1C53EF78001E205C /* Debug */,
+				0254CC801C53EF78001E205C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0254CC821C53EF78001E205C /* Build configuration list for PBXNativeTarget "CalcIMCAWLeticia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0254CC831C53EF78001E205C /* Debug */,
+				0254CC841C53EF78001E205C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0254CC431C53EF77001E205C /* Project object */;
+}

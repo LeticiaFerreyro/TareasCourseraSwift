@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="9527.1" systemVersion="15B42" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9525.1"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="9513.1"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="CalcIMCAWLeticia_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <group width="1" alignment="left" id="fDO-cM-ifA">
+                            <items>
+                                <label width="68" alignment="left" text="Peso" id="BXY-Kv-9oI"/>
+                                <label alignment="left" text="50" id="bHn-Eq-BUc"/>
+                            </items>
+                        </group>
+                        <slider width="1" alignment="left" value="50" minimum="50" maximum="200" steps="150" id="vBY-Xx-1Ev">
+                            <connections>
+                                <action selector="nuevoValorPeso:" destination="AgC-eL-Hgc" id="OW3-zD-F1O"/>
+                            </connections>
+                        </slider>
+                        <group width="1" alignment="left" id="YK2-Uf-z9R">
+                            <items>
+                                <label width="72" alignment="left" text="Estatura" id="yfK-Mu-cKI"/>
+                                <label alignment="left" text=".5" id="GGc-Hs-eUW"/>
+                            </items>
+                        </group>
+                        <slider width="1" alignment="left" value="50" minimum="50" maximum="230" steps="180" id="VmN-Pp-PgY">
+                            <connections>
+                                <action selector="nuevoValorEstatura:" destination="AgC-eL-Hgc" id="hPi-Sa-bCA"/>
+                            </connections>
+                        </slider>
+                        <button width="1" alignment="left" title="Calcular" id="UuQ-Fz-MdV">
+                            <connections>
+                                <action selector="accionCalcular" destination="AgC-eL-Hgc" id="bEZ-sk-BTw"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="valorEstatura" destination="GGc-Hs-eUW" id="C32-D6-LQT"/>
+                        <outlet property="valorPeso" destination="bHn-Eq-BUc" id="Bj1-39-5Ww"/>
+                    </connections>
+                </controller>
+            </objects>
+        </scene>
+        <!--IdentificadorValor-->
+        <scene sceneID="nyd-ah-j8z">
+            <objects>
+                <controller identifier="IdentificadorValor" id="FLl-YK-VKb" customClass="vistaDetalleInterfaceController" customModule="CalcIMCAWLeticia_WatchKit_Extension">
+                    <items>
+                        <label alignment="left" text="Masa Corporal" id="iaW-Be-lij"/>
+                        <label alignment="left" text="Label" id="huH-jS-fgx"/>
+                    </items>
+                    <connections>
+                        <outlet property="etiquetaResultado" destination="huH-jS-fgx" id="2I1-uH-gqA"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="557" y="430"/>
+        </scene>
+    </scenes>
+</document>

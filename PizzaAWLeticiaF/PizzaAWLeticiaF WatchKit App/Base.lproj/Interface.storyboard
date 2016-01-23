@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="9527.1" systemVersion="15B42" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9525.1"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="9513.1"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="PizzaAWLeticiaF_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <label width="135" alignment="left" text="Crea tu pizza" textAlignment="center" id="XHt-zR-t4U">
+                            <color key="textColor" red="1" green="0.41586959146955582" blue="0.25471939634657537" alpha="1" colorSpace="calibratedRGB"/>
+                        </label>
+                        <group width="1" alignment="left" id="IXJ-Wh-cDX">
+                            <items>
+                                <label alignment="left" text="Tamaño" id="zqs-zp-3eN">
+                                    <color key="textColor" red="0.19478103540277614" green="0.89906831170145718" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </label>
+                                <label alignment="left" id="Qbl-Fz-YxI"/>
+                            </items>
+                        </group>
+                        <label alignment="left" text="1.- Chica" id="RWE-w5-GiN">
+                            <color key="textColor" red="0.39291628093349606" green="0.70025510046537143" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </label>
+                        <label alignment="left" text="2.-Mediana" id="HFj-Yd-zDK">
+                            <color key="textColor" red="0.36714521619756013" green="0.45371620151134784" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </label>
+                        <label alignment="left" text="3.-Grande" id="XIk-m7-S8L">
+                            <color key="textColor" red="0.69102147750474641" green="0.58075267242174466" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </label>
+                        <group width="1" alignment="left" id="0Pl-EW-QR9">
+                            <items>
+                                <slider width="62" alignment="left" value="1" minimum="1" maximum="3" steps="2" id="hPa-Jm-h9h">
+                                    <connections>
+                                        <action selector="nuevoValorTamano:" destination="AgC-eL-Hgc" id="u1f-vK-cfg"/>
+                                    </connections>
+                                </slider>
+                                <button width="69" alignment="left" title="Sig" id="xxz-6n-dHb">
+                                    <connections>
+                                        <segue destination="4tk-cD-4ow" kind="push" id="Pfe-9j-T8b"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="valorTamano" destination="Qbl-Fz-YxI" id="7qE-4W-4H4"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="236" y="420"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="BAf-5I-TWj">
+            <objects>
+                <controller id="4tk-cD-4ow">
+                    <items>
+                        <group width="1" alignment="left" id="G24-fO-1kk">
+                            <items>
+                                <label alignment="left" text="Tipo de Masa" id="cyd-85-Gsq">
+                                    <color key="textColor" red="1" green="0.6681263234" blue="0.14080089379999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </label>
+                                <label alignment="left" text="  1" id="q8P-Ph-BXP"/>
+                            </items>
+                        </group>
+                        <label alignment="left" text="1.-Delgada" id="sjn-LV-nft">
+                            <color key="textColor" red="1" green="0.84776466979999998" blue="0.49765368640000002" alpha="1" colorSpace="calibratedRGB"/>
+                        </label>
+                        <label alignment="left" text="2.-Crujiente" id="pTU-M7-abP">
+                            <color key="textColor" red="1" green="0.51562959289999999" blue="0.24896233600000001" alpha="1" colorSpace="calibratedRGB"/>
+                        </label>
+                        <label alignment="left" text="3.-Gruesa" id="MHx-TR-XL6">
+                            <color key="textColor" red="0.97031250000000002" green="0.91114650360000005" blue="0.071651543250000005" alpha="1" colorSpace="calibratedRGB"/>
+                        </label>
+                        <label alignment="left" id="n8X-DT-0tU"/>
+                        <label alignment="left" text="   " id="aDI-oz-AYQ"/>
+                        <group width="1" alignment="left" id="bKP-6v-F2r">
+                            <items>
+                                <slider width="65" alignment="left" value="1" minimum="1" maximum="3" steps="2" id="05h-sl-KOB"/>
+                                <button width="67" alignment="left" title="Sig" id="5Sv-dZ-UPX">
+                                    <connections>
+                                        <segue destination="UeC-SX-vk9" kind="push" id="40Z-8V-iPJ"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="418" y="415"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="1LX-2A-rVw">
+            <objects>
+                <controller id="UeC-SX-vk9">
+                    <items>
+                        <group width="1" alignment="left" id="wBq-Le-iwL">
+                            <items>
+                                <label alignment="left" text="Tipo de Queso" id="jdh-JB-1Gh">
+                                    <color key="textColor" red="1" green="0.69870696330000004" blue="0.62430226860000004" alpha="1" colorSpace="calibratedRGB"/>
+                                </label>
+                                <label alignment="left" text="  1" id="MAx-15-WVR"/>
+                            </items>
+                        </group>
+                        <label alignment="left" text="1.- Mozarela" id="zwI-IH-Jr7">
+                            <color key="textColor" red="1" green="0.5365060277" blue="0.85428817300000004" alpha="1" colorSpace="calibratedRGB"/>
+                        </label>
+                        <label alignment="left" text="2.-Cheddar" id="3bX-cN-sBA">
+                            <color key="textColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </label>
+                        <label alignment="left" text="3.-Parmesano" id="Rnj-3k-n9x">
+                            <color key="textColor" red="0.7179365182863493" green="0.29658245296503394" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </label>
+                        <label alignment="left" text="4.-Sin queso" id="Ndb-i6-lkv">
+                            <color key="textColor" red="0.88340957399999998" green="1" blue="0.55329236459999998" alpha="1" colorSpace="calibratedRGB"/>
+                        </label>
+                        <group width="1" alignment="left" id="BAY-v0-N23">
+                            <items>
+                                <slider width="66" alignment="left" value="1" maximum="3" steps="3" id="DNG-Xs-HgY"/>
+                                <button width="64" alignment="left" title="Sig" id="Hi0-Ic-aRO">
+                                    <connections>
+                                        <segue destination="Z7f-4G-BwX" kind="push" id="Hm5-Um-4mV"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="580" y="412"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="ypH-Us-55r">
+            <objects>
+                <controller id="Z7f-4G-BwX">
+                    <items>
+                        <group width="1" alignment="left" id="NhC-yc-UQg">
+                            <items>
+                                <label alignment="left" text="Ingredientes" id="uJh-gt-4a7">
+                                    <color key="textColor" red="1" green="0.99663116802635243" blue="0.31155475102252617" alpha="1" colorSpace="calibratedRGB"/>
+                                </label>
+                                <button height="22" alignment="left" title="Sig" id="GfF-Cx-v36">
+                                    <connections>
+                                        <segue destination="XQK-PG-87P" kind="push" id="4rl-Y8-zm8"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" id="7XU-5r-Qoz">
+                            <items>
+                                <label alignment="left" text="1" id="FVK-f8-9b8"/>
+                                <label alignment="left" text=",2" id="5Cf-HT-G8H"/>
+                                <label alignment="left" text=",3" id="CgA-K2-lkL"/>
+                                <label alignment="left" text=",4" id="dxt-aL-LLv"/>
+                                <label alignment="left" text=",5" id="PLd-TZ-0Nc"/>
+                            </items>
+                        </group>
+                        <label alignment="left" text="1.-Jamón" id="JPo-62-XIa">
+                            <color key="textColor" red="1" green="0.59066779668919167" blue="0.6506222763413162" alpha="1" colorSpace="calibratedRGB"/>
+                        </label>
+                        <switch width="1" alignment="left" value="YES" title="Switch" id="GAm-Pw-gtR"/>
+                        <label alignment="left" text="2.-Piña" id="SRu-bh-seh">
+                            <color key="textColor" red="1" green="0.84103611706194348" blue="0.29193681085948908" alpha="1" colorSpace="calibratedRGB"/>
+                        </label>
+                        <switch width="1" alignment="left" value="YES" title="Switch" id="d82-bS-qk5"/>
+                        <label alignment="left" text="3.-Pepperoni" id="KiO-Rf-5nT">
+                            <color key="textColor" red="1" green="0.040810588000000002" blue="0.15587127640000001" alpha="1" colorSpace="calibratedRGB"/>
+                        </label>
+                        <switch width="1" alignment="left" value="YES" title="Switch" id="CXC-Pc-iyO"/>
+                        <label alignment="left" text="4.-Champiñones" id="xP0-S6-zpE">
+                            <color key="textColor" red="0.66363221495923586" green="0.66311153722666938" blue="0.7450320512820513" alpha="1" colorSpace="calibratedRGB"/>
+                        </label>
+                        <switch width="1" alignment="left" value="YES" title="Switch" id="tHV-OU-4U1"/>
+                        <label alignment="left" text="5.-Aceitunas" id="LkA-qw-Wlk">
+                            <color key="textColor" red="0.36554164190301575" green="0.52373798076923084" blue="0.31858239935526544" alpha="1" colorSpace="calibratedRGB"/>
+                        </label>
+                        <switch width="1" alignment="left" value="YES" title="Switch" id="1y7-Qf-s3Q"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="241" y="778.5"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="Xpq-km-wey">
+            <objects>
+                <controller id="XQK-PG-87P">
+                    <items>
+                        <group width="1" alignment="left" id="WT7-zc-H1t">
+                            <items>
+                                <label alignment="left" text="Tu pizza:" id="ZX3-ha-VfI"/>
+                                <button width="49" height="23" alignment="left" title="Sig" id="I4T-yG-bro">
+                                    <connections>
+                                        <segue destination="SVG-Lx-2pq" kind="push" id="oru-vX-6Kd"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" id="mX9-VD-jrK">
+                            <items>
+                                <label alignment="left" text="Tamaño:" id="xVN-em-Rvh">
+                                    <color key="textColor" red="0.26436767431573716" green="0.85864013598748057" blue="0.87892628205128209" alpha="1" colorSpace="calibratedRGB"/>
+                                </label>
+                                <label alignment="left" text="    " id="sBP-x9-C8T"/>
+                            </items>
+                        </group>
+                        <group width="134" height="20" alignment="left" id="Ivk-Bq-ceY">
+                            <items>
+                                <label alignment="left" text="Masa: " id="W4e-Ba-ieZ">
+                                    <color key="textColor" red="1" green="0.51562959289999999" blue="0.24896233600000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </label>
+                                <label alignment="left" text="      " id="7xX-lt-QDd"/>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" id="DCj-mh-oyC">
+                            <items>
+                                <label alignment="left" text="Queso: " id="xKZ-fc-Aa9">
+                                    <color key="textColor" red="1" green="0.69870696330000004" blue="0.62430226860000004" alpha="1" colorSpace="calibratedRGB"/>
+                                </label>
+                                <label alignment="left" text="        " id="4c4-mH-Fds"/>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" layout="vertical" id="amZ-KJ-Wns">
+                            <items>
+                                <label alignment="left" text="Ingredientes: " id="NC9-Pa-NqN">
+                                    <color key="textColor" red="0.97031250000000002" green="0.91114650360000005" blue="0.071651543250000005" alpha="1" colorSpace="calibratedRGB"/>
+                                </label>
+                                <label alignment="left" text="1.- " id="RBy-Wp-9ni"/>
+                                <label alignment="left" text="2.- " id="rpo-i4-NEj"/>
+                                <label alignment="left" text="3.-  " id="VNR-ao-DAL"/>
+                                <label alignment="left" text="4.- " id="mfb-Mr-Etx"/>
+                                <label alignment="left" text="5.- " id="C0E-uy-Gzh"/>
+                            </items>
+                        </group>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="412" y="779"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="2V1-V3-YVh">
+            <objects>
+                <controller id="SVG-Lx-2pq">
+                    <items>
+                        <button width="1" alignment="left" title="Confirma tu orden" id="CYa-jd-LOn">
+                            <color key="titleColor" red="0.31439072839999999" green="1" blue="0.18548974639999999" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <segue destination="yf4-eI-JFt" kind="push" id="Ato-qV-G5F"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Cambia tu orden" id="HE3-VR-Ohb">
+                            <color key="titleColor" red="0.33253898369622714" green="0.72408142494731853" blue="0.87892628205128209" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <segue destination="AgC-eL-Hgc" kind="push" id="OsG-R5-64f"/>
+                            </connections>
+                        </button>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="575" y="726"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="Vlm-e6-1v6">
+            <objects>
+                <controller id="yf4-eI-JFt">
+                    <items>
+                        <label width="136" alignment="left" text="Tu pizza ya está" textAlignment="center" id="lQQ-to-7ph">
+                            <color key="textColor" red="1" green="0.51562959289999999" blue="0.24896233600000001" alpha="1" colorSpace="calibratedRGB"/>
+                        </label>
+                        <label width="128" alignment="left" text="¡Gracias!" textAlignment="center" id="99i-6X-Pae"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="725" y="726"/>
+        </scene>
+    </scenes>
+</document>
