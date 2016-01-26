@@ -19,6 +19,14 @@
 		0254CCB91C540D53001E205C /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0254CCB81C540D53001E205C /* InterfaceController.swift */; };
 		0254CCBB1C540D53001E205C /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0254CCBA1C540D53001E205C /* ExtensionDelegate.swift */; };
 		0254CCBD1C540D53001E205C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0254CCBC1C540D53001E205C /* Assets.xcassets */; };
+		0254CCCD1C56DFD5001E205C /* valorMasa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0254CCCC1C56DFD5001E205C /* valorMasa.swift */; };
+		0254CCCF1C56E19C001E205C /* vistaDetalleMasa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0254CCCE1C56E19C001E205C /* vistaDetalleMasa.swift */; };
+		0254CCD11C56E461001E205C /* detalleTipoDeQueso.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0254CCD01C56E461001E205C /* detalleTipoDeQueso.swift */; };
+		0254CCD31C56E50E001E205C /* vistaDetalleQueso.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0254CCD21C56E50E001E205C /* vistaDetalleQueso.swift */; };
+		0254CCD51C56E7ED001E205C /* detalleIngredientes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0254CCD41C56E7ED001E205C /* detalleIngredientes.swift */; };
+		0254CCD71C56E8C3001E205C /* vistaDetalleIngredientes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0254CCD61C56E8C3001E205C /* vistaDetalleIngredientes.swift */; };
+		0254CCD91C56FA75001E205C /* DetallePizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0254CCD81C56FA75001E205C /* DetallePizza.swift */; };
+		0254CCDB1C56FB3D001E205C /* DescripcionPizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0254CCDA1C56FB3D001E205C /* DescripcionPizza.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +88,14 @@
 		0254CCBA1C540D53001E205C /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		0254CCBC1C540D53001E205C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0254CCBE1C540D53001E205C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0254CCCC1C56DFD5001E205C /* valorMasa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = valorMasa.swift; sourceTree = "<group>"; };
+		0254CCCE1C56E19C001E205C /* vistaDetalleMasa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = vistaDetalleMasa.swift; sourceTree = "<group>"; };
+		0254CCD01C56E461001E205C /* detalleTipoDeQueso.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = detalleTipoDeQueso.swift; sourceTree = "<group>"; };
+		0254CCD21C56E50E001E205C /* vistaDetalleQueso.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = vistaDetalleQueso.swift; sourceTree = "<group>"; };
+		0254CCD41C56E7ED001E205C /* detalleIngredientes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = detalleIngredientes.swift; sourceTree = "<group>"; };
+		0254CCD61C56E8C3001E205C /* vistaDetalleIngredientes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = vistaDetalleIngredientes.swift; sourceTree = "<group>"; };
+		0254CCD81C56FA75001E205C /* DetallePizza.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetallePizza.swift; sourceTree = "<group>"; };
+		0254CCDA1C56FB3D001E205C /* DescripcionPizza.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DescripcionPizza.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +166,14 @@
 				0254CCBA1C540D53001E205C /* ExtensionDelegate.swift */,
 				0254CCBC1C540D53001E205C /* Assets.xcassets */,
 				0254CCBE1C540D53001E205C /* Info.plist */,
+				0254CCCC1C56DFD5001E205C /* valorMasa.swift */,
+				0254CCCE1C56E19C001E205C /* vistaDetalleMasa.swift */,
+				0254CCD01C56E461001E205C /* detalleTipoDeQueso.swift */,
+				0254CCD21C56E50E001E205C /* vistaDetalleQueso.swift */,
+				0254CCD41C56E7ED001E205C /* detalleIngredientes.swift */,
+				0254CCD61C56E8C3001E205C /* vistaDetalleIngredientes.swift */,
+				0254CCD81C56FA75001E205C /* DetallePizza.swift */,
+				0254CCDA1C56FB3D001E205C /* DescripcionPizza.swift */,
 			);
 			path = "PizzaAWLeticiaF WatchKit Extension";
 			sourceTree = "<group>";
@@ -295,6 +319,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0254CCD91C56FA75001E205C /* DetallePizza.swift in Sources */,
+				0254CCD11C56E461001E205C /* detalleTipoDeQueso.swift in Sources */,
+				0254CCD31C56E50E001E205C /* vistaDetalleQueso.swift in Sources */,
+				0254CCCD1C56DFD5001E205C /* valorMasa.swift in Sources */,
+				0254CCDB1C56FB3D001E205C /* DescripcionPizza.swift in Sources */,
+				0254CCCF1C56E19C001E205C /* vistaDetalleMasa.swift in Sources */,
+				0254CCD71C56E8C3001E205C /* vistaDetalleIngredientes.swift in Sources */,
+				0254CCD51C56E7ED001E205C /* detalleIngredientes.swift in Sources */,
 				0254CCBB1C540D53001E205C /* ExtensionDelegate.swift in Sources */,
 				0254CCB91C540D53001E205C /* InterfaceController.swift in Sources */,
 			);

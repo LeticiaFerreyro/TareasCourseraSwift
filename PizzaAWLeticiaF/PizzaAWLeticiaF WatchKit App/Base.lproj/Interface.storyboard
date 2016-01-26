@@ -52,10 +52,10 @@
             </objects>
             <point key="canvasLocation" x="236" y="420"/>
         </scene>
-        <!--Interface Controller-->
+        <!--Vista Detalle Masa-->
         <scene sceneID="BAf-5I-TWj">
             <objects>
-                <controller id="4tk-cD-4ow">
+                <controller id="4tk-cD-4ow" customClass="vistaDetalleMasa" customModule="PizzaAWLeticiaF_WatchKit_Extension">
                     <items>
                         <group width="1" alignment="left" id="G24-fO-1kk">
                             <items>
@@ -78,7 +78,11 @@
                         <label alignment="left" text="   " id="aDI-oz-AYQ"/>
                         <group width="1" alignment="left" id="bKP-6v-F2r">
                             <items>
-                                <slider width="65" alignment="left" value="1" minimum="1" maximum="3" steps="2" id="05h-sl-KOB"/>
+                                <slider width="65" alignment="left" value="1" minimum="1" maximum="3" steps="2" id="05h-sl-KOB">
+                                    <connections>
+                                        <action selector="nuevaMasaElegida:" destination="4tk-cD-4ow" id="NQ5-bn-Bvo"/>
+                                    </connections>
+                                </slider>
                                 <button width="67" alignment="left" title="Sig" id="5Sv-dZ-UPX">
                                     <connections>
                                         <segue destination="UeC-SX-vk9" kind="push" id="40Z-8V-iPJ"/>
@@ -87,14 +91,17 @@
                             </items>
                         </group>
                     </items>
+                    <connections>
+                        <outlet property="masaElegida" destination="q8P-Ph-BXP" id="pje-5X-EoG"/>
+                    </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="418" y="415"/>
         </scene>
-        <!--Interface Controller-->
+        <!--Detalle Tipo De Queso-->
         <scene sceneID="1LX-2A-rVw">
             <objects>
-                <controller id="UeC-SX-vk9">
+                <controller id="UeC-SX-vk9" customClass="detalleTipoDeQueso" customModule="PizzaAWLeticiaF_WatchKit_Extension">
                     <items>
                         <group width="1" alignment="left" id="wBq-Le-iwL">
                             <items>
@@ -118,7 +125,11 @@
                         </label>
                         <group width="1" alignment="left" id="BAY-v0-N23">
                             <items>
-                                <slider width="66" alignment="left" value="1" maximum="3" steps="3" id="DNG-Xs-HgY"/>
+                                <slider width="66" alignment="left" value="1" minimum="1" maximum="4" steps="3" id="DNG-Xs-HgY">
+                                    <connections>
+                                        <action selector="nuevoQuesoElegido:" destination="UeC-SX-vk9" id="f55-LZ-SLf"/>
+                                    </connections>
+                                </slider>
                                 <button width="64" alignment="left" title="Sig" id="Hi0-Ic-aRO">
                                     <connections>
                                         <segue destination="Z7f-4G-BwX" kind="push" id="Hm5-Um-4mV"/>
@@ -127,14 +138,17 @@
                             </items>
                         </group>
                     </items>
+                    <connections>
+                        <outlet property="quesoElegido" destination="MAx-15-WVR" id="mTt-N1-vmQ"/>
+                    </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="580" y="412"/>
         </scene>
-        <!--Interface Controller-->
+        <!--Detalle Ingredientes-->
         <scene sceneID="ypH-Us-55r">
             <objects>
-                <controller id="Z7f-4G-BwX">
+                <controller id="Z7f-4G-BwX" customClass="detalleIngredientes" customModule="PizzaAWLeticiaF_WatchKit_Extension">
                     <items>
                         <group width="1" alignment="left" id="NhC-yc-UQg">
                             <items>
@@ -150,42 +164,70 @@
                         </group>
                         <group width="1" alignment="left" id="7XU-5r-Qoz">
                             <items>
-                                <label alignment="left" text="1" id="FVK-f8-9b8"/>
-                                <label alignment="left" text=",2" id="5Cf-HT-G8H"/>
-                                <label alignment="left" text=",3" id="CgA-K2-lkL"/>
-                                <label alignment="left" text=",4" id="dxt-aL-LLv"/>
-                                <label alignment="left" text=",5" id="PLd-TZ-0Nc"/>
+                                <label alignment="left" text="    " id="FVK-f8-9b8"/>
+                                <label alignment="left" text=",  " id="5Cf-HT-G8H"/>
+                                <label alignment="left" text=",  " id="CgA-K2-lkL"/>
+                                <label alignment="left" text=",  " id="dxt-aL-LLv"/>
+                                <label alignment="left" text=",  " id="PLd-TZ-0Nc"/>
                             </items>
                         </group>
                         <label alignment="left" text="1.-Jamón" id="JPo-62-XIa">
                             <color key="textColor" red="1" green="0.59066779668919167" blue="0.6506222763413162" alpha="1" colorSpace="calibratedRGB"/>
                         </label>
-                        <switch width="1" alignment="left" value="YES" title="Switch" id="GAm-Pw-gtR"/>
+                        <switch width="1" alignment="left" value="YES" title="Switch" id="GAm-Pw-gtR">
+                            <connections>
+                                <action selector="nuevoIngredienteUno:" destination="Z7f-4G-BwX" id="i5l-vx-aiC"/>
+                            </connections>
+                        </switch>
                         <label alignment="left" text="2.-Piña" id="SRu-bh-seh">
                             <color key="textColor" red="1" green="0.84103611706194348" blue="0.29193681085948908" alpha="1" colorSpace="calibratedRGB"/>
                         </label>
-                        <switch width="1" alignment="left" value="YES" title="Switch" id="d82-bS-qk5"/>
+                        <switch width="1" alignment="left" value="YES" title="Switch" id="d82-bS-qk5">
+                            <connections>
+                                <action selector="nuevoIngredienteDos:" destination="Z7f-4G-BwX" id="Prj-h1-1tF"/>
+                            </connections>
+                        </switch>
                         <label alignment="left" text="3.-Pepperoni" id="KiO-Rf-5nT">
                             <color key="textColor" red="1" green="0.040810588000000002" blue="0.15587127640000001" alpha="1" colorSpace="calibratedRGB"/>
                         </label>
-                        <switch width="1" alignment="left" value="YES" title="Switch" id="CXC-Pc-iyO"/>
+                        <switch width="1" alignment="left" value="YES" title="Switch" id="CXC-Pc-iyO">
+                            <connections>
+                                <action selector="nuevoIngredienteTres:" destination="Z7f-4G-BwX" id="Jd9-id-lLK"/>
+                            </connections>
+                        </switch>
                         <label alignment="left" text="4.-Champiñones" id="xP0-S6-zpE">
                             <color key="textColor" red="0.66363221495923586" green="0.66311153722666938" blue="0.7450320512820513" alpha="1" colorSpace="calibratedRGB"/>
                         </label>
-                        <switch width="1" alignment="left" value="YES" title="Switch" id="tHV-OU-4U1"/>
+                        <switch width="1" alignment="left" value="YES" title="Switch" id="tHV-OU-4U1">
+                            <connections>
+                                <action selector="nuevoIngredienteCuatro:" destination="Z7f-4G-BwX" id="Vzt-7x-RUV"/>
+                            </connections>
+                        </switch>
                         <label alignment="left" text="5.-Aceitunas" id="LkA-qw-Wlk">
                             <color key="textColor" red="0.36554164190301575" green="0.52373798076923084" blue="0.31858239935526544" alpha="1" colorSpace="calibratedRGB"/>
                         </label>
-                        <switch width="1" alignment="left" value="YES" title="Switch" id="1y7-Qf-s3Q"/>
+                        <switch width="1" alignment="left" value="YES" title="Switch" id="1y7-Qf-s3Q">
+                            <connections>
+                                <action selector="nuevoIngredienteCinco:" destination="Z7f-4G-BwX" id="Ppm-QR-DZl"/>
+                            </connections>
+                        </switch>
                     </items>
+                    <connections>
+                        <outlet property="ingredienteCinco" destination="PLd-TZ-0Nc" id="jSQ-R9-VuB"/>
+                        <outlet property="ingredienteCuatro" destination="dxt-aL-LLv" id="1mZ-Eg-PrE"/>
+                        <outlet property="ingredienteDos" destination="5Cf-HT-G8H" id="PqX-9q-gfk"/>
+                        <outlet property="ingredienteTres" destination="CgA-K2-lkL" id="Mqc-fa-Jb9"/>
+                        <outlet property="ingredienteUno" destination="FVK-f8-9b8" id="nCn-hF-zX1"/>
+                        <outlet property="nuevoIngredienteDos" destination="d82-bS-qk5" id="SUK-P3-cd2"/>
+                    </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="241" y="778.5"/>
         </scene>
-        <!--Interface Controller-->
+        <!--Descripcion Pizza-->
         <scene sceneID="Xpq-km-wey">
             <objects>
-                <controller id="XQK-PG-87P">
+                <controller id="XQK-PG-87P" customClass="DescripcionPizza" customModule="PizzaAWLeticiaF_WatchKit_Extension">
                     <items>
                         <group width="1" alignment="left" id="WT7-zc-H1t">
                             <items>
