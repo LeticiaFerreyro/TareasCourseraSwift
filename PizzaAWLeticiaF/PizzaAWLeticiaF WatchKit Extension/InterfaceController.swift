@@ -15,8 +15,7 @@ class InterfaceController: WKInterfaceController {
     @IBOutlet var valorTamano: WKInterfaceLabel!
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
-        
-        // Configure interface objects here.
+                // Configure interface objects here.
     }
 
     override func willActivate() {

@@ -50,7 +50,7 @@
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="236" y="420"/>
+            <point key="canvasLocation" x="157" y="190.5"/>
         </scene>
         <!--Vista Detalle Masa-->
         <scene sceneID="BAf-5I-TWj">
@@ -96,7 +96,7 @@
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="418" y="415"/>
+            <point key="canvasLocation" x="453" y="192.5"/>
         </scene>
         <!--Detalle Tipo De Queso-->
         <scene sceneID="1LX-2A-rVw">
@@ -143,7 +143,7 @@
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="580" y="412"/>
+            <point key="canvasLocation" x="725" y="192.5"/>
         </scene>
         <!--Detalle Ingredientes-->
         <scene sceneID="ypH-Us-55r">
@@ -222,7 +222,7 @@
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="241" y="778.5"/>
+            <point key="canvasLocation" x="165" y="778.5"/>
         </scene>
         <!--Descripcion Pizza-->
         <scene sceneID="Xpq-km-wey">
@@ -276,9 +276,12 @@
                             </items>
                         </group>
                     </items>
+                    <connections>
+                        <outlet property="etiquetaTamano" destination="sBP-x9-C8T" id="mt6-TC-e9G"/>
+                    </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="412" y="779"/>
+            <point key="canvasLocation" x="383" y="682"/>
         </scene>
         <!--Interface Controller-->
         <scene sceneID="2V1-V3-YVh">
@@ -300,7 +303,7 @@
                     </items>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="575" y="726"/>
+            <point key="canvasLocation" x="605" y="538"/>
         </scene>
         <!--Interface Controller-->
         <scene sceneID="Vlm-e6-1v6">
@@ -314,7 +317,7 @@
                     </items>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="725" y="726"/>
+            <point key="canvasLocation" x="716" y="859"/>
         </scene>
     </scenes>
 </document>
