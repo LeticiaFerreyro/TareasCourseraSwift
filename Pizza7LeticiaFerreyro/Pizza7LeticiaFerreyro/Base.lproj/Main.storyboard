@@ -550,7 +550,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4kb-CO-awu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1741" y="1828"/>
+            <point key="canvasLocation" x="1452" y="1837"/>
         </scene>
         <!--Vista Pizza-->
         <scene sceneID="6oq-hB-sYE">
@@ -812,6 +812,10 @@
                     </view>
                     <connections>
                         <outlet property="ing1Seleccionado" destination="9Od-gd-lQM" id="JOL-VH-Vau"/>
+                        <outlet property="ing2Seleccionado" destination="74t-Bj-x9I" id="loT-XK-V53"/>
+                        <outlet property="ing3Seleccionado" destination="gBb-dE-JeL" id="oHr-Dk-aFz"/>
+                        <outlet property="ing4Seleccionado" destination="Vqx-fD-HTJ" id="976-TC-U0y"/>
+                        <outlet property="ing5Seleccionado" destination="JSk-4f-DIR" id="rWJ-Ox-Nzb"/>
                         <outlet property="masaSeleccionada" destination="W7F-Gg-rF3" id="Bcs-Wy-3ef"/>
                         <outlet property="quesoSeleccionado" destination="u5Z-eo-dAd" id="czq-31-sEF"/>
                         <outlet property="tamanoSeleccionado" destination="ITX-6L-TAB" id="K56-R8-vJH"/>
@@ -880,7 +884,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="4Fe-fw-igi"/>
+        <segue reference="fw2-L5-IMD"/>
         <segue reference="Y6C-2x-S1b"/>
     </inferredMetricsTieBreakers>
 </document>
