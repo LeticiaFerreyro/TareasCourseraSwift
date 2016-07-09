@@ -66,7 +66,8 @@ class tipoIngredientes: UIViewController {
         
         sigIng52.nuevoIng5=resultadoIng5
     }
-    // FUNCIONES PARA INGREDIENTES
+    // FUNCIONES 
+    
     func ing1()->String{
         let sigIng1:String
         sigIng1=String(self.ing1Escrito.text!)
