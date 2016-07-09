@@ -10,11 +10,11 @@ import UIKit
 
 class tipoIngredientes: UIViewController {
     
-    var nuevoIng1:String=""
-    var nuevoIng2:String=""
-    var nuevoIng3:String=""
-    var nuevoIng4:String=""
-    var nuevoIng5:String="" 
+    var nuevoIng1:String="Jamón"
+    var nuevoIng2:String="Pepperoni"
+    var nuevoIng3:String="Salchicha"
+    var nuevoIng4:String="Cebolla"
+    var nuevoIng5:String="Pimiento"
     
     
     
@@ -66,6 +66,7 @@ class tipoIngredientes: UIViewController {
         
         sigIng52.nuevoIng5=resultadoIng5
     }
+    // FUNCIONES PARA INGREDIENTES
     func ing1()->String{
         let sigIng1:String
         sigIng1=String(self.ing1Escrito.text!)
