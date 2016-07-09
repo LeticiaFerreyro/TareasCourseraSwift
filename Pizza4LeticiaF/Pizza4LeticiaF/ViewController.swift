@@ -20,7 +20,7 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
     @IBAction func tamanoChica(let value: Bool) {
         
         if value==false{
@@ -33,6 +33,7 @@ class ViewController: UIViewController {
             let masa:String=ing1
            tamano.text=masa
         }
+        
     }
     
 
@@ -62,8 +63,11 @@ class ViewController: UIViewController {
             let ing1:String="Grande"
             let masa:String=ing1
             tamano.text=masa
+            
         }
 
     }
+    
+    
 }
 

@@ -53,12 +53,6 @@
                                 <color key="textColor" red="0.044734564009999998" green="0.074625056349999996" blue="0.44196714739999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="qf6-rM-YXv">
-                                <rect key="frame" x="413" y="213" width="51" height="31"/>
-                                <connections>
-                                    <action selector="tamanoChica:" destination="BYZ-38-t0r" eventType="valueChanged" id="d6a-2d-pr6"/>
-                                </connections>
-                            </switch>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="1bs-vN-kAd">
                                 <rect key="frame" x="413" y="378" width="51" height="31"/>
                                 <connections>
@@ -70,6 +64,12 @@
                                 <connections>
                                     <action selector="tamanoMedian:" destination="BYZ-38-t0r" eventType="valueChanged" id="ilJ-Dr-gCq"/>
                                     <action selector="tamanoMediana:" destination="BYZ-38-t0r" eventType="valueChanged" id="iyi-HC-57Y"/>
+                                </connections>
+                            </switch>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="qf6-rM-YXv">
+                                <rect key="frame" x="413" y="218" width="51" height="31"/>
+                                <connections>
+                                    <action selector="tamanoChica:" destination="BYZ-38-t0r" eventType="valueChanged" id="d6a-2d-pr6"/>
                                 </connections>
                             </switch>
                         </subviews>
